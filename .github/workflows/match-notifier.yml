@@ -1,0 +1,56 @@
+name: Match notifier
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Enviar apenas uma notificacao de teste"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: match-notifier
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      # O GitHub pode atrasar execucoes agendadas; tolerancia maior nos lembretes
+      GRACE_MINUTES: "45"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Notificacao de teste
+        if: ${{ github.event.inputs.test == 'true' }}
+        run: python match_notifier.py --test
+
+      - name: Verificar jogos e enviar lembretes
+        if: ${{ github.event.inputs.test != 'true' }}
+        run: python match_notifier.py
+
+      - name: Salvar state.json
+        if: ${{ github.event.inputs.test != 'true' }}
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "chore: atualiza state [skip ci]"
+            git pull --rebase
+            git push
+          fi

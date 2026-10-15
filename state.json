@@ -8,23 +8,13 @@
   },
   "fixtures": [
     {
-      "id": "2594547",
+      "id": "2494065",
       "home": "Manchester City",
-      "away": "Paris Saint-Germain",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-10-14T19:00:00+00:00",
+      "away": "Ipswich Town",
+      "league": "English Premier League",
+      "kickoff": "2026-10-17T14:00:00+00:00",
       "followed": [
         "Manchester City"
-      ]
-    },
-    {
-      "id": "2594609",
-      "home": "Roma",
-      "away": "Real Madrid",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-10-14T19:00:00+00:00",
-      "followed": [
-        "Real Madrid"
       ]
     },
     {
@@ -38,6 +28,16 @@
       ]
     },
     {
+      "id": "2506254",
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "league": "Spanish La Liga",
+      "kickoff": "2026-10-18T19:00:00+00:00",
+      "followed": [
+        "Real Madrid"
+      ]
+    },
+    {
       "id": "2606355",
       "home": "Japan",
       "away": "Brazil",
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-10-14T21:00:12.231593+00:00",
+  "fixtures_at": "2026-10-15T03:18:42.079879+00:00",
   "sent": [
     "2494051:31",
     "2594543:60"

@@ -8,16 +8,6 @@
   },
   "fixtures": [
     {
-      "id": "2594550",
-      "home": "Manchester City",
-      "away": "AEK Athens",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-10-20T19:00:00+00:00",
-      "followed": [
-        "Manchester City"
-      ]
-    },
-    {
       "id": "2594567",
       "home": "Bayern Munich",
       "away": "Arsenal",
@@ -38,6 +28,16 @@
       ]
     },
     {
+      "id": "2494077",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "league": "English Premier League",
+      "kickoff": "2026-10-24T11:30:00+00:00",
+      "followed": [
+        "Manchester City"
+      ]
+    },
+    {
       "id": "2606355",
       "home": "Japan",
       "away": "Brazil",
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-10-20T17:34:59.064887+00:00",
+  "fixtures_at": "2026-10-20T23:37:54.998443+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",

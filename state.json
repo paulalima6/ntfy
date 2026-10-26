@@ -8,16 +8,6 @@
   },
   "fixtures": [
     {
-      "id": "2506259",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "league": "Spanish La Liga",
-      "kickoff": "2026-10-25T20:00:00+00:00",
-      "followed": [
-        "Real Madrid"
-      ]
-    },
-    {
       "id": "2606325",
       "home": "Fleetwood Town",
       "away": "Arsenal",
@@ -38,6 +28,16 @@
       ]
     },
     {
+      "id": "2506278",
+      "home": "Racing de Santander",
+      "away": "Real Madrid",
+      "league": "Spanish La Liga",
+      "kickoff": "2026-11-01T15:15:00+00:00",
+      "followed": [
+        "Real Madrid"
+      ]
+    },
+    {
       "id": "2606355",
       "home": "Japan",
       "away": "Brazil",
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-10-25T19:51:45.414766+00:00",
+  "fixtures_at": "2026-10-26T05:11:41.838931+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",

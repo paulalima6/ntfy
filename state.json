@@ -8,16 +8,6 @@
   },
   "fixtures": [
     {
-      "id": "2494085",
-      "home": "Manchester City",
-      "away": "Brighton and Hove Albion",
-      "league": "English Premier League",
-      "kickoff": "2026-10-31T15:00:00+00:00",
-      "followed": [
-        "Manchester City"
-      ]
-    },
-    {
       "id": "2506278",
       "home": "Racing de Santander",
       "away": "Real Madrid",
@@ -38,6 +28,16 @@
       ]
     },
     {
+      "id": "2594579",
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "league": "UEFA Champions League",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "followed": [
+        "Manchester City"
+      ]
+    },
+    {
       "id": "2606355",
       "home": "Japan",
       "away": "Brazil",
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-10-31T21:42:17.078958+00:00",
+  "fixtures_at": "2026-11-01T06:39:06.340892+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",

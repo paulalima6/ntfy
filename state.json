@@ -8,33 +8,33 @@
   },
   "fixtures": [
     {
-      "id": "2594648",
-      "home": "AEK Athens",
-      "away": "Real Madrid",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-11-04T17:45:00+00:00",
+      "id": "2494092",
+      "home": "Arsenal",
+      "away": "Hull City",
+      "league": "English Premier League",
+      "kickoff": "2026-11-07T15:00:00+00:00",
       "followed": [
-        "Real Madrid"
+        "Arsenal"
       ]
     },
     {
-      "id": "2594579",
-      "home": "RB Leipzig",
+      "id": "2494098",
+      "home": "Nottingham Forest",
       "away": "Manchester City",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-11-04T20:00:00+00:00",
+      "league": "English Premier League",
+      "kickoff": "2026-11-07T17:30:00+00:00",
       "followed": [
         "Manchester City"
       ]
     },
     {
-      "id": "2594639",
-      "home": "Slavia Prague",
-      "away": "Arsenal",
-      "league": "UEFA Champions League",
-      "kickoff": "2026-11-04T20:00:00+00:00",
+      "id": "2506280",
+      "home": "Valencia",
+      "away": "Real Madrid",
+      "league": "Spanish La Liga",
+      "kickoff": "2026-11-07T20:00:00+00:00",
       "followed": [
-        "Arsenal"
+        "Real Madrid"
       ]
     },
     {
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-11-04T16:14:05.732093+00:00",
+  "fixtures_at": "2026-11-05T02:02:31.835674+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",

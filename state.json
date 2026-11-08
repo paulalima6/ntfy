@@ -8,36 +8,6 @@
   },
   "fixtures": [
     {
-      "id": "2494092",
-      "home": "Arsenal",
-      "away": "Hull City",
-      "league": "English Premier League",
-      "kickoff": "2026-11-07T15:00:00+00:00",
-      "followed": [
-        "Arsenal"
-      ]
-    },
-    {
-      "id": "2494098",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "league": "English Premier League",
-      "kickoff": "2026-11-07T17:30:00+00:00",
-      "followed": [
-        "Manchester City"
-      ]
-    },
-    {
-      "id": "2506280",
-      "home": "Valencia",
-      "away": "Real Madrid",
-      "league": "Spanish La Liga",
-      "kickoff": "2026-11-07T20:00:00+00:00",
-      "followed": [
-        "Real Madrid"
-      ]
-    },
-    {
       "id": "2606355",
       "home": "Japan",
       "away": "Brazil",
@@ -46,9 +16,39 @@
       "followed": [
         "Brazil"
       ]
+    },
+    {
+      "id": "2494105",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "league": "English Premier League",
+      "kickoff": "2026-11-21T12:30:00+00:00",
+      "followed": [
+        "Manchester City"
+      ]
+    },
+    {
+      "id": "2494100",
+      "home": "Newcastle United",
+      "away": "Arsenal",
+      "league": "English Premier League",
+      "kickoff": "2026-11-21T17:30:00+00:00",
+      "followed": [
+        "Arsenal"
+      ]
+    },
+    {
+      "id": "2506293",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "league": "Spanish La Liga",
+      "kickoff": "2026-11-22T16:00:00+00:00",
+      "followed": [
+        "Real Madrid"
+      ]
     }
   ],
-  "fixtures_at": "2026-11-07T22:57:51.041705+00:00",
+  "fixtures_at": "2026-11-08T09:07:32.197302+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",

@@ -8,16 +8,6 @@
   },
   "fixtures": [
     {
-      "id": "2606356",
-      "home": "Singapore",
-      "away": "Brazil",
-      "league": "International Friendlies",
-      "kickoff": "2026-11-17T10:00:00+00:00",
-      "followed": [
-        "Brazil"
-      ]
-    },
-    {
       "id": "2494105",
       "home": "Manchester City",
       "away": "Fulham",
@@ -48,7 +38,7 @@
       ]
     }
   ],
-  "fixtures_at": "2026-11-17T18:46:47.747948+00:00",
+  "fixtures_at": "2026-11-18T01:21:51.738525+00:00",
   "sent": [
     "2494051:31",
     "2594543:60",
